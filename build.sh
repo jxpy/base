@@ -1,25 +1,9 @@
 #!/bin/sh
 set -e
 
-image="${namespace:-minidocks}/base"
+image="${namespace:-jxalpine}/base"
 versions="
-3.5;3.5
-3.5-build;3.5;build
-3.6;3.6
-3.7;3.7
-3.8;3.8
-3.8-build;3.8;build
-3.9;3.9
-3.9-build;3.9;build
-3.10;3.10
-3.10-build;3.10;build
-3.11;3.11
-3.11-build;3.11;build
-3.12;3.12
-3.12-build;3.12;build
 edge;edge
-edge-build;edge;build
-build;3.12;build
 latest;3.12
 "
 
